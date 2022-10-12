@@ -30,7 +30,7 @@ public class PinEingabe {
                  }
 
              } else {
-                 System.out.println("*hust* *hust* 4 stellen");
+                 System.out.println("*hust* 4 stellen *hust*");
              }
         } while (inputPin != fixPin && tries < 3);
 
