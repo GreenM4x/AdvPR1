@@ -13,22 +13,23 @@ public class PinEingabe {
         int inputPin;
         int inputPuk;
 
-        System.out.print("geben sie ihren 4 Stelligen Pin ein: ");
+        System.out.print("Geben sie ihren 4 Stelligen PIN ein: ");
 
          do {
+
              inputPin = inputScanner.nextInt();
-             if (inputPin > 1000 && inputPin < 9999){
+             if (inputPin >= 1000 && inputPin <= 9999){
                  tries++;
                  if(inputPin != fixPin && tries < 3) {
-                     System.out.println("try again.");
+                     System.out.println("Try again.");
                  }
                  if (inputPin == fixPin) {
                      System.out.println("Der PIN ist Ricthig");
+                     return;
                  }
-                 if (inputPin != fixPin && tries == 3) {
+                 if (tries == 3) {
                      System.out.println("Sie haben den PIN dreimal falsch eingegeben!");
                  }
-
              } else {
                  System.out.println("*hust* 4 stellen *hust*");
              }
