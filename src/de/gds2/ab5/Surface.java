@@ -25,9 +25,10 @@ public class Surface {
             width = Math.abs(y2 - y1);
             surface = lenght * width;
 
+            if (surface == 0) break;
+
             System.out.print("Breite: " + lenght + "\t Höhe: " + width + "\t Fläsche: " + surface + "\n");
 
-            if (surface == 0) break;
 
         }
     }
