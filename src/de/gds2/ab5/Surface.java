@@ -26,7 +26,6 @@ public class Surface {
             surface = lenght * width;
 
             if (surface == 0) break;
-
             System.out.print("Breite: " + lenght + "\t Höhe: " + width + "\t Fläsche: " + surface + "\n");
 
 
