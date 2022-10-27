@@ -1,4 +1,4 @@
-package de.gds2.ab3;
+package de.gds2.ab3if;
 
 import java.util.Scanner;
 

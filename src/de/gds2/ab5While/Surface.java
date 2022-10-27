@@ -1,4 +1,4 @@
-package de.gds2.ab5;
+package de.gds2.ab5While;
 
 import java.util.Scanner;
 

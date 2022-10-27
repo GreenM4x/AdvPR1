@@ -1,4 +1,4 @@
-package de.gds2.ab7;
+package de.gds2.ab7Wiederholung;
 
 public class Unicode {
     public static void main(String[] args) {

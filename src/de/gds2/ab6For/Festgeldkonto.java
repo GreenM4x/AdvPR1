@@ -1,4 +1,4 @@
-package de.gds2.ab6;
+package de.gds2.ab6For;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;

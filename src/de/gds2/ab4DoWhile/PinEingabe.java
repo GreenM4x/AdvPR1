@@ -1,4 +1,4 @@
-package de.gds2.ab4;
+package de.gds2.ab4DoWhile;
 
 import java.util.Scanner;
 

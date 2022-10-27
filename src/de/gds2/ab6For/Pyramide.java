@@ -1,4 +1,4 @@
-package de.gds2.ab6;
+package de.gds2.ab6For;
 
 public class Pyramide {
     public static void main(String[] args) {

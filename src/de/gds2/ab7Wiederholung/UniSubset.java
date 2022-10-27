@@ -1,4 +1,4 @@
-package de.gds2.ab7;
+package de.gds2.ab7Wiederholung;
 
 import java.util.Scanner;
 
@@ -32,7 +32,6 @@ public class UniSubset {
             display = Character.toString(c);
 
             System.out.printf("%1$-8s %2$-10s \n", i, display);
-
 
         }
 
