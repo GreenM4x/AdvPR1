@@ -11,7 +11,7 @@ public class KlassenNoten {
 
 
     public static void main(String[] args) {
-
+    //test
         Scanner inputScanner = new Scanner(System.in);
         System.out.print("Geben sie an wie viele Noten sie eintragen möchten: ");
         int anzahl = inputScanner.nextInt();
