@@ -13,7 +13,10 @@ public class ArrayEingabe {
             System.out.print("Gebe eine Zahl ein: ");
             input = inpurScanner.nextInt();
             eingabe[i] = input;
-            if (input > 100 || input < 0) i--;
+            if (input > 100 || input < 0) {
+                System.err.println("[ERROR] Die zahl ist nicht gültig");
+                i--;
+            }
         }
 
         for (int i = 0; i < eingabe.length; i++) {
