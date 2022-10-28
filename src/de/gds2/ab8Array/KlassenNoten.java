@@ -28,10 +28,10 @@ public class KlassenNoten {
             System.out.print("Gebe sie die Note ein: ");
             note[i] = inputScanner.nextDouble();
 
+            durchnitt = durchnitt + note[i];
+
         }
-        for (double v : note) {
-            durchnitt = durchnitt + v;
-        }
+
         durchnitt = durchnitt / anzahl;
 
 
