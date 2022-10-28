@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ArrayEingabe {
     public static void main(String[] args) {
+        //init
         int[] eingabe = new int[10];
         int input;
 
