@@ -12,8 +12,8 @@ public class ArrayEingabe {
         for (int i = 0; i < eingabe.length; i++) {
             System.out.print("Gebe eine Zahl ein: ");
             input = inpurScanner.nextInt();
-            if (input > 100 || input < 0) return;
             eingabe[i] = input;
+            if (input > 100 || input < 0) i--;
         }
 
         for (int i = 0; i < eingabe.length; i++) {
