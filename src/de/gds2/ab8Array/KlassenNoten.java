@@ -45,5 +45,7 @@ public class KlassenNoten {
             }
 
         }
+
+        inputScanner.close();
     }
 }
