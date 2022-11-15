@@ -10,6 +10,14 @@ public class Getraenk {
 
     double preis;
 
+    public Getraenk() {
+    }
+
+    public Getraenk(String name, double preis) {
+        this.name = name;
+        this.preis = preis;
+    }
+
     public double BestellMenge(){
         double bestellmenge = 0.0;
 
@@ -19,4 +27,6 @@ public class Getraenk {
 
         return bestellmenge;
     }
+
+
 }

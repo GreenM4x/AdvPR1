@@ -1,7 +1,5 @@
 package de.gds2.ab9Plaetzchen;
 
-import java.util.Scanner;
-
 public class Plaetzchen {
 
     private String sorte;
