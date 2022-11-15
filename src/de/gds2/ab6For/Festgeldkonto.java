@@ -12,7 +12,7 @@ public class Festgeldkonto {
         int laufzeit = 1;
         double result;
 
-        DecimalFormat dc = new DecimalFormat("#.00");
+        DecimalFormat dc = new DecimalFormat(".00");
 
         Scanner inputScanner = new Scanner(System.in);
         System.out.print("Geben sie ihr Startkapital ein: ");
