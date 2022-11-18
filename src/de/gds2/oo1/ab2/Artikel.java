@@ -11,32 +11,28 @@ public class Artikel {
         return artikelnr;
     }
 
-    public void setArtikelnr(String artikelnr) {
-        this.artikelnr = artikelnr;
+    public void setArtikelnr(String pArtikelnr) {
+        this.artikelnr = pArtikelnr;
     }
 
     public String getBezeichnung() {
         return bezeichnung;
     }
 
-    public void setBezeichnung(String bezeichnung) {
-        this.bezeichnung = bezeichnung;
+    public void setBezeichnung(String pBezeichnung) {
+        this.bezeichnung = pBezeichnung;
     }
 
     public double getPreis() {
         return preis;
     }
 
-    public void setPreis(double preis) {
-        this.preis = preis;
+    public void setPreis(double pPreis) {
+        this.preis = pPreis;
     }
 
     public int getBestand() {
         return bestand;
-    }
-
-    public void setBestand(int bestand) {
-        this.bestand = bestand;
     }
 
     public void aendern (int pStueck){
