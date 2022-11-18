@@ -1,4 +1,4 @@
-package de.gds2.ab9Plaetzchen;
+package de.gds2.oo1;
 
 public class Plaetzchen {
 

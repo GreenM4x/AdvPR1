@@ -1,19 +1,18 @@
 package de.gds2.oo1;
 
-import de.gds2.ab9Plaetzchen.Plaetzchen;
-
 public class Starter {
     public static void main(String[] args) {
 
-        Getraenk bier = new Getraenk("Tannenzäpfle", 3.50);
-        bier.name = "Tannenzäpfle";
+        Getraenk bier = new Getraenk();
 
-        bier.bestamd = 3.0;
-        bier.maxBestand = 100.0;
-        bier.minBestand = 25.0;
+        bier.setName("Tannenzäpfle");
+        System.out.println(bier.getName());
 
         System.out.println(bier.BestellMenge());
-        
+
+        Auto jaguarAndi = new Auto(4, "schwarz");
+        Auto jaguarAndi2 = new Auto();
+
 
 
     }
