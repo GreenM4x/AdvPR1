@@ -36,6 +36,6 @@ public class Artikel {
     }
 
     public void aendern (int pStueck){
-
+        
     }
 }
