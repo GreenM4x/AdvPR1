@@ -24,19 +24,12 @@ public class Starter {
         System.out.println("Möchten sie die Brüche addieren [1],subtrahieren [2], multiplizieren [3] oder dividieren [4]");
         wahl = inputScanner.nextInt();
 
-        switch (wahl){
-            case 1:
-                Bruchrechnen.addieren(z1, n1, z2, n2);
-                break;
-            case 2:
-                Bruchrechnen.substrahieren(z1, n1, z2, n2);
-                break;
-            case 3:
-                Bruchrechnen.multiplizieren(z1, n1, z2, n2);
-                break;
-            case 4:
-                Bruchrechnen.dividieren(z1, n1, z2, n2);
-                break;
+        switch (wahl) {
+            case 1 -> Bruchrechnen.addieren(z1, n1, z2, n2);
+            case 2 -> Bruchrechnen.substrahieren(z1, n1, z2, n2);
+            case 3 -> Bruchrechnen.multiplizieren(z1, n1, z2, n2);
+            case 4 -> Bruchrechnen.dividieren(z1, n1, z2, n2);
+            default -> System.out.println("Keine gültige eingabe");
         }
     }
 }
