@@ -15,4 +15,10 @@ class ArrayTest {
 
         arrayName = new String[] {"Alles", "ganz", "anders"};
     }
+
+    static void swap (String[] arrayName){
+        String temp = arrayName[0];
+        arrayName[0] = arrayName[1];
+        arrayName[1] = temp;
+    }
 }
