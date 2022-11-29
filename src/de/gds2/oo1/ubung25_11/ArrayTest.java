@@ -1,19 +1,23 @@
 package de.gds2.oo1.ubung25_11;
 
+import java.util.Arrays;
+
 class ArrayTest {
     public static void main(String[] args) {
 
         String [] zahlenNamenArray = {"eins", "zwei"};
 
-        test(zahlenNamenArray);
+        test();
         for(String a : zahlenNamenArray) {
             System.out.println(a);
         }
+        swap(zahlenNamenArray);
     }
 
-    static void test (String[] arrayName){
+    static void test (){
 
-        arrayName = new String[] {"Alles", "ganz", "anders"};
+        String[] arrayName = new String[]{"Alles", "ganz", "anders"};
+        System.out.println(Arrays.toString(arrayName));
     }
 
     static void swap (String[] arrayName){
