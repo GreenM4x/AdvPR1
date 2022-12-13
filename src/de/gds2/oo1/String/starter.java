@@ -46,7 +46,7 @@ public class starter {
         return s.replaceAll("[aeoui]", "");
     }
 
-    public static String Reverse(String input) {
+    public static String Reverse(String input) { // Hallo
         char[] array = input.toCharArray();
 
         String output = "";

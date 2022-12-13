@@ -11,8 +11,7 @@ public class StringBuTest {
         long startTime = System.nanoTime();
          String str = "";
         for (int i = 0; i < 100000; i++) {
-            str += i;
-
+            str = str.concat(String.valueOf(i));
 
         }
         System.out.println("Fertig String");
