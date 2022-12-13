@@ -1,4 +1,4 @@
-package de.gds2.Abgabe;
+package de.gds2.AbgabeArray;
 
 import java.util.Arrays;
 
