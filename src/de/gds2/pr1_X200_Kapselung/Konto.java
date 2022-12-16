@@ -7,6 +7,9 @@ public class Konto {
     private double kontostand;
     private double kreditlimit;
 
+    public Konto() {
+    }
+
     public double getKontostand() {
         return kontostand;
     }
