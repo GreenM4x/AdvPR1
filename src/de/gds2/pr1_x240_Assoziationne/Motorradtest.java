@@ -1,7 +1,10 @@
 package de.gds2.pr1_x240_Assoziationne;
 
 public class Motorradtest {
-
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
 
         Motor myMotor = new Motor(35, 1337.00);
@@ -13,6 +16,11 @@ public class Motorradtest {
         Motorrad Harley_fatboy = new Motorrad(new Motor(37, 1337), new Reifen(16.00,3.00, "Sommer"), new Reifen(16.00,3.00, "Sommer"));
 
         Harley.gibInfo();
+
+
+        System.out.println(Harley_fatboy.getVorderreifen().getDurchmesser());
+
+
 
     }
 }
