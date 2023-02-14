@@ -8,8 +8,7 @@ public class Rabattierterechnung extends Rechnung {
         this.rabat = rabat;
     }
 
-    @Override
-    protected double bruttobetragBerechnen() {
-        return super.bruttobetragBerechnen();
+    protected double bruttobetragBerechnenRabat() {
+        return (gesambetrag + gesambetrag * mehrwertsteuer) - (gesambetrag + gesambetrag * mehrwertsteuer * rabat);
     }
 }

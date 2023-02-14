@@ -4,6 +4,7 @@ public class Schuler extends Mensch {
     private int klassenstufe;
     private int jahresbeitrag;
 
+
     public Schuler(String name, int alter, int klassenstufe, int jahresbeitrag) {
         super(name, alter);
         this.klassenstufe = klassenstufe;
