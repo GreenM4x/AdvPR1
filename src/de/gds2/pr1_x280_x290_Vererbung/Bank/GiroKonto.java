@@ -10,13 +10,13 @@ public class GiroKonto extends Bankkonto {
 
     @Override
     public void abheben(double x) {
-        super.abheben(x);
+        this.kontoStand -= x;
         kontoStand -= gebuehr;
     }
 
     @Override
     public void einzahlen(double x) {
-        super.einzahlen(x);
-        kontoStand -= gebuehr;
+        this.kontoStand += (x - gebuehr);
+
     }
 }
