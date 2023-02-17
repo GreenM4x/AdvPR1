@@ -13,29 +13,37 @@ public class Kaffemaschine {
 
 
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         boolean machineAn = true;
-        System.out.println("[1] Kaffe Schwartz \n " +
-                "[2] Kaffee Zucker \n " +
-                "[3] Kaffee Milch \n" +
-                "[4] Kaffee Milch/Zucker \n" +
-                "[5] Kakao \n" +
-                "[0] Machine Auschalten");
+        System.out.println("""
+                [1] Kaffe Schwartz\s
+                [2] Kaffee Zucker\s
+                [3] Kaffee Milch\s
+                [4] Kaffee Milch/Zucker\s
+                [5] Kakao\s
+                [0] Machine Auschalten""");
         while (machineAn){
             System.out.println("Gaben sie ihre wahl ein: ");
-            Scanner sc = new Scanner(System.in);
             int x = sc.nextInt();
-            sc.close();
 
             switch (x) {
                 case 0: machineAn = false;
+                break;
                 case 1: getraenkErstellen(Rezept.KAFFEESCHWARZ);
+                break;
                 case 2: getraenkErstellen(Rezept.KAFFEEZUCKER);
+                break;
                 case 3: getraenkErstellen(Rezept.KAFFEEMILCH);
+                break;
                 case 4: getraenkErstellen(Rezept.KAFFEEMILCHZUCKER);
+                break;
                 case 5: getraenkErstellen(Rezept.KAKAO);
+                break;
 
             }
         }
+
+        sc.close();
 
     }
 
