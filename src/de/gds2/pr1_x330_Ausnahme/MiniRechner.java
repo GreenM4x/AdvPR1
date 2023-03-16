@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class MiniRechner {
     public static void main(String[] args) {
 
-// Deklaration
         try {
             Rechner();
         }

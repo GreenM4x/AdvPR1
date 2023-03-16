@@ -36,16 +36,24 @@ public class MiniRechnerVar1 {
         }
     }
 
-    private static double berechneDivision(double zaehler, double nenner) {
+    private static double berechneDivision(double zaehler, double nenner)
+    throws ArithmeticException{
+        double division = 0.0;
+        String fehlermdelung = "Durch null teilen geht net";
+        division = zaehler / nenner;
+        return division;
+        }
+
+    private static double berechneDivision2(double zaehler, double nenner) {
         double division = 0.0;
         String fehlermdelung = "Durch null teilen geht net";
         if (nenner == 0.0){
             throw new ArithmeticException(fehlermdelung);
         } else {
-        division = zaehler / nenner;
-        return division;
+            division = zaehler / nenner;
+            return division;
         }
     }
-
-
 }
+
+
