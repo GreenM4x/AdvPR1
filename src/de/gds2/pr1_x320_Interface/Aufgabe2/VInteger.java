@@ -9,8 +9,15 @@ public class VInteger extends Integer implements Vergleichbar{
     @Override
     public int vergleichenMit(Vergleichbar obj) {
         int out = 0;
-        if (obj.equals(this.wert)){
+        VInteger VIntObi = (VInteger) obj;
+        if (this.wert > VIntObi.wert){
+            out = -1;
+        }
+        if (this.wert == VIntObi.wert){
             out = 0;
+        }
+        if (this.wert < VIntObi.wert){
+            out = 1;
         }
 
         return out;
