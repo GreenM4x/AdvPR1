@@ -34,7 +34,7 @@ public class FigureContainerTestDriver {
             itr.next();
             count++;
         }
-
+        
         System.out.println("Anzahl der Elemente: " + count);
 
         fc.drawAll();
