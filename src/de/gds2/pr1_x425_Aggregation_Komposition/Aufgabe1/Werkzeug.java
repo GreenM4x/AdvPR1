@@ -6,6 +6,7 @@ public abstract class Werkzeug {
     protected int verschleiss = 0;
 
     public Werkzeug(String art, int verschleiss) {
+        if (verschleiss < 0 || verschleiss > 100) return;
         this.art = art;
         this.verschleiss = verschleiss;
     }
