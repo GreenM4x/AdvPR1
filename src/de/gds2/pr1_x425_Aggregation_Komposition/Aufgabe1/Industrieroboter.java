@@ -31,10 +31,10 @@ public class Industrieroboter {
 
         try {
             werkzeugsKasten.get(platz);
-        }catch (IndexOutOfBoundsException e) {
             werkzeugsKasten.set(platz, null);
             return true;
+        }catch (IndexOutOfBoundsException e) {
+            return false;
         }
-        return false;
     }
 }
