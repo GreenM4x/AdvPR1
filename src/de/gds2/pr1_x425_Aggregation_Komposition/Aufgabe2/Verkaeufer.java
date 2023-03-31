@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class Verkaeufer {
 
-    private ArrayList<Artikel> ArtArray = new ArrayList<Artikel>(100);
+    private ArrayList<Artikel> ArtArray;
     public Verkaeufer(ArrayList<Artikel> sortiment) {
         this.ArtArray = sortiment;
 
