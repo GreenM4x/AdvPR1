@@ -44,5 +44,6 @@ public class Artikel {
 
     public void kaufen(int b){
 
+        bestand -= b;
     }
 }
